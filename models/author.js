@@ -10,7 +10,7 @@ const AuthorSchema = new Schema({
     },
     family_name: {
         type: String,
-        required,
+        required: true,
         maxlength: 100
     },
     date_of_birth: Date,

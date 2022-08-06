@@ -7,7 +7,8 @@ const GenreSchema = new Schema({
         type: String,
         min: 3,
         max: 100,
-        required
+        required: true
+        
     }
 })
 
